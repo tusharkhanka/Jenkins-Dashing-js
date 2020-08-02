@@ -1,8 +1,3 @@
-# Instalation
-
-1. 
-2. 
-
 
 # Jenkins Job Dashing widget
 
