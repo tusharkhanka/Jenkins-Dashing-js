@@ -1,0 +1,20 @@
+extends layout
+
+block title
+  | My dashboard title
+
+block content
+  div.gridster
+    ul
+      li(data-row='1', data-col='1', data-sizex='1', data-sizey='1')
+        div(class='widget-jenkins_job widget container')
+          h1(title='Jenkins', class='stackTitle')
+          div(class='widget-jenkins_job item')
+            div(data-id='mobileMasterSolution', data-view='JenkinsJob', data-bind-class='result | prepend additionalclass', data-additionalclass='widget ')
+            i(class='fa fa-code icon-background')
+          div(class='widget-jenkins_job item')
+            div(data-id='mobileBuild', data-view='JenkinsJob', data-bind-class='result | prepend additionalclass', data-additionalclass='widget ')
+            i(class='fa fa-shield icon-background')
+      li(data-row='1', data-col='1', data-sizex='2', data-sizey='1', class='widget-jenkins_job')
+        div(data-id='mobileBuild', data-view='JenkinsJob', data-bind-class='result | append additionalclass', data-additionalclass=' widget')
+        i(class='fa fa-archive icon-background')

@@ -1,0 +1,16 @@
+{
+  "name": "bar",
+  "description": "bar",
+  "author": "<Put your name here>",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "cron": "^1.8.2",
+    "dashing-js": "git+https://github.com/tusharkhanka/dashing-js.git",
+    "jenkins-api": "^0.3.1",
+    "memory-cache": "^0.2.0",
+    "moment": "^2.27.0",
+    "request": "^2.88.2"
+  },
+  "engine": "node >= 0.10"
+}
