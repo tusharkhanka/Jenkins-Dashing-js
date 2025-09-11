@@ -31,4 +31,4 @@ Node 10.x npm 6.x
 $ dashing-js install https://github.com/kj187/dashing-jenkins_job/archive/master.zip
 ``` 
 
-A commit after 5 years
+A commit after 5 years and 20 mins 
