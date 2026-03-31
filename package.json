@@ -9,7 +9,7 @@
     "dashing-js": "git+https://github.com/tusharkhanka/dashing-js.git",
     "jenkins-api": "^0.3.1",
     "memory-cache": "^0.2.0",
-    "moment": "^2.27.0",
+    "moment": "^2.29.4",
     "request": "^2.88.2"
   },
   "engine": "node >= 0.10"
